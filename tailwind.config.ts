@@ -22,6 +22,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          glow: "hsl(var(--primary-glow))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -47,6 +48,13 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        mood: {
+          great: "hsl(var(--mood-great))",
+          good: "hsl(var(--mood-good))",
+          okay: "hsl(var(--mood-okay))",
+          low: "hsl(var(--mood-low))",
+          difficult: "hsl(var(--mood-difficult))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +65,21 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        "gradient-hero": "var(--gradient-hero)",
+        "gradient-mood": "var(--gradient-mood)",
+        "gradient-card": "var(--gradient-card)",
+        "gradient-wellness": "var(--gradient-wellness)",
+      },
+      boxShadow: {
+        gentle: "var(--shadow-gentle)",
+        mood: "var(--shadow-mood)",
+        wellness: "var(--shadow-wellness)",
+      },
+      transitionProperty: {
+        wellness: "var(--transition-wellness)",
+        mood: "var(--transition-mood)",
       },
       borderRadius: {
         lg: "var(--radius)",
